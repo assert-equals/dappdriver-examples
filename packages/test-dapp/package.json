@@ -1,0 +1,21 @@
+{
+  "name": "@assert-equals/dappdriver-examples-test-dapp",
+  "version": "1.0.0",
+  "description": "A simple dapp used in DappDriver e2e tests",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf node_modules && rm -rf dist"
+  },
+  "keywords": [
+    "dapp"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@metamask/test-dapp": "^8.13.0",
+    "@types/serve-handler": "^6.1.4",
+    "serve-handler": "^6.1.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}

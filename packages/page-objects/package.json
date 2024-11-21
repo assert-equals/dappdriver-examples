@@ -1,0 +1,19 @@
+{
+  "name": "@assert-equals/dappdriver-examples-page-objects",
+  "version": "1.0.0",
+  "description": "Sample dapp page object",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf node_modules && rm -rf dist"
+  },
+  "keywords": [
+    "dappdriver"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@assert-equals/dappdriver": "latest",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
