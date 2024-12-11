@@ -7,6 +7,7 @@ A set of examples to help demonstrate using [DappDriver](https://github.com/asse
 - [Cucumber](./packages/cucumber)
 - [Jest](./packages/jest)
 - [Mocha](./packages/mocha/)
+- [Headless Wallet](./packages/tests/headless.ts)
 
 ## Getting Started
 

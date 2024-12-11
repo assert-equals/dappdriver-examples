@@ -1,0 +1,29 @@
+{
+  "name": "@assert-equals/dappdriver-examples-tests",
+  "version": "1.0.0",
+  "description": "Examples to help demonstrate using DappDriver to test a sample dapp",
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "setup": "npx dappdriver",
+    "test": "ts-node headless.ts"
+  },
+  "keywords": [
+    "dappdriver",
+    "headless",
+    "playwright",
+    "selenium",
+    "webdriver"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@assert-equals/dappdriver": "latest",
+    "@assert-equals/dappdriver-examples-page-objects": "*",
+    "@assert-equals/dappdriver-examples-test-dapp": "*",
+    "@types/chai": "^4.3.3",
+    "chai": "4.5.0",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.48.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
