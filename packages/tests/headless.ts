@@ -33,7 +33,6 @@ dotenv.config({ path: "../../.env" });
     }
   );
   try {
-    // await dapp.useProvider();
     const actualAccount: string = await dapp.getAccounts();
     const expectedAccount = "0xE18035BF8712672935FDB4e5e431b1a0183d2DFC";
     expect(actualAccount).to.be.equal(expectedAccount);
