@@ -1,4 +1,4 @@
-# Cucumber
+# Mocha
 
 An example to help demonstrate using DappDriver and [Mocha](https://github.com/mochajs/mocha) to test a sample dapp
 
