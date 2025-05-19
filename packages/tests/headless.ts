@@ -34,7 +34,7 @@ dotenv.config({ path: "../../.env" });
   );
   try {
     const actualAccount: string = await dapp.getAccounts();
-    const expectedAccount = "0xE18035BF8712672935FDB4e5e431b1a0183d2DFC";
+    const expectedAccount = "0xe18035bf8712672935fdb4e5e431b1a0183d2dfc";
     expect(actualAccount).to.be.equal(expectedAccount);
   } finally {
     await DappDriver.dispose();

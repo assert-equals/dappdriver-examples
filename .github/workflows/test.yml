@@ -20,7 +20,5 @@ jobs:
         run: npm run build
       - name: Install Playwright Browser
         run: npx playwright install chrome
-      - name: Install Browser Extension
-        run: npm run setup
       - name: Run All Tests
         run: xvfb-run npm test

@@ -9,6 +9,7 @@ import { Dapp } from "@assert-equals/dappdriver-examples-page-objects";
 import { Connect } from "@assert-equals/dappdriver/wallet";
 import * as dotenv from "dotenv";
 import { TestDapp } from "@assert-equals/dappdriver-examples-test-dapp";
+import path from "path";
 
 describe("E2E Test Dapp", (): void => {
   dotenv.config({ path: "../../.env" });
@@ -21,6 +22,10 @@ describe("E2E Test Dapp", (): void => {
       extension: {
         wallet: METAMASK,
         seed: process.env.DAPPDRIVER_SEED_PHRASE,
+        path: path.join(
+          process.cwd(),
+          "../../node_modules/@assert-equals/dappdriver/metamask-chrome-12.17.3"
+        ),
       },
     };
     dapp = await DappDriver.create<Dapp>(

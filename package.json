@@ -16,7 +16,6 @@
   "scripts": {
     "build": "npm run build -ws --if-present",
     "clean": "rm -rf node_modules package-lock.json && npm run clean -ws",
-    "setup": "npm run setup -ws --if-present",
     "test": "npm test -ws --if-present"
   },
   "private": "true",

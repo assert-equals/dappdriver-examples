@@ -4,7 +4,6 @@
   "description": "An example to help demonstrate using DappDriver and Cucumber to test a sample dapp",
   "scripts": {
     "clean": "rm -rf node_modules",
-    "setup": "npx dappdriver",
     "test": "cucumber-js"
   },
   "keywords": [
@@ -18,7 +17,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@assert-equals/dappdriver": "latest",
+    "@assert-equals/dappdriver": "0.34.1",
     "@assert-equals/dappdriver-examples-page-objects": "*",
     "@assert-equals/dappdriver-examples-test-dapp": "*",
     "@cucumber/cucumber": "^11.1.0",

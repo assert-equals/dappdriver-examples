@@ -22,12 +22,6 @@ Install Playwright Browser
 npx playwright install chrome
 ```
 
-Install Browser Extension
-
-```
-npm run setup
-```
-
 Run All Tests
 
 ```
