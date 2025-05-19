@@ -33,6 +33,7 @@ dotenv.config({ path: "../../.env" });
     }
   );
   try {
+    DappDriver.sleep(2000); // TODO: wait for load
     const actualAccount: string = await dapp.getAccounts();
     const expectedAccount = "0xe18035bf8712672935fdb4e5e431b1a0183d2dfc";
     expect(actualAccount).to.be.equal(expectedAccount);
