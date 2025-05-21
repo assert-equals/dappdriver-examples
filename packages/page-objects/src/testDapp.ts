@@ -12,6 +12,7 @@ export class Dapp extends PageObject {
   }
 
   async getAccounts(): Promise<string> {
+    await this.accountsLabel().waitForText();
     return await this.accountsLabel().getText();
   }
 
